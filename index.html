@@ -52,34 +52,34 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Dataset Distillation via Vision-Language Category Prototype</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://sites.google.com/view/yawenzou" target="_blank">Yawen Zou</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Guang Li</a><sup>*</sup>,</span>
+                  <a href="https://www-lmd.ist.hokudai.ac.jp/member/guang-li/" target="_blank">Guang Li</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Duo Su</a><sup>*</sup>,</span>
+                  <a href="https://suduo94.github.io/" target="_blank">Duo Su</a><sup>*</sup>,</span>
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Zi Wang</a><sup>*</sup>,</span>
               <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Jun Yu</a><sup>*</sup>,</span>
+                  <a href="https://www.eng.niigata-u.ac.jp/~yujun/" target="_blank">Jun Yu</a><sup>*</sup>,</span>
               <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank"> Chao Zhang</a><sup>*</sup>,</span>
+                  <a href="https://www.labzhang.com/" target="_blank"> Chao Zhang</a><sup>*</sup>,</span>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">University of Toyama<br>ICCV2025</span>
+<!--                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2506.23580.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -90,7 +90,7 @@
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="https://drive.google.com/uc?export=download&id=15dBJ6kRDmMtNlPRDzNGv6FlaF0Bn3RAW" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
@@ -101,7 +101,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/zou-yawen/Dataset-Distillation-via-Vision-Language-Category-Prototype" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -112,7 +112,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2506.23580.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -133,14 +133,16 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <div style="text-align: center;">
+        <img src="static/images/framework.jpg" alt="Project Banner" style="max-width: 100%; height: auto;">
+      </div>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Overviewoftheproposedframework.Theframeworkstartswithgeneratingimage-textpairsusingtheLLaVAmodel,followed
+ bytrainingadiffusionmodel. Imagefeaturesarethencompressedwithanautoencoder,outliersareremoved, andK-meansclustering
+ isappliedtocreateimageprototypes. For textprototypes, frequentwordsareextractedfromdescriptions, andthemost representative
+ sentenceisselected.Finally,theseprototypesguidethediffusionmodeltosynthesizediverseandrepresentativeimages.
       </h2>
+
     </div>
   </div>
 </section>
